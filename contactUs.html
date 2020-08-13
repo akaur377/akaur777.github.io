@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+	
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	
+<title>AK | Contact Us</title>
+
+<link rel="stylesheet" type="text/css" href="rvsroom.css">
+<link href='https://fonts.googleapis.com/css?family=Catamaran' rel='stylesheet'>
+
+<header>
+		<img src="NewLogo.png" style="height: 100px; float: left; margin-left: 10px; margin-top: 10px; ">
+		<h1 style="color: #BBACA8 ;font-size: ; font-family: 'Catamaran';">AK</h1>
+		<p style=" margin-left: 3em; color: white">Life isn't perfect but your outfit can be!!</p>
+</header>
+</head>
+<body style="background-color:#FFECFA ; margin-bottom: 90px; ">
+
+
+	<div class="scrollmenu" style="padding-top: 120px">
+		  <a href="index.html" style="font-family: Catamaran;">Home</a>
+		  
+ </div><br><br><br>
+
+<form action="https://formspree.io/moqkbklr" method="post">
+  <label for="name">Full Name:</label>
+  <input type="text" id="fullname" name="fullname" value="Please Enter Your Name"><br><br>
+
+  <label for="email">Enter your e-mail address:</label>
+  <input type="email" id="emailid" name="emailid" value="Please enter your email id"><br><br><br>
+
+<label for="address">Enter your street address:</label>
+  <input type="text" id="stadd" name="stadd" value="House/Flat/Apt No."><br><br>
+
+  <label for="city">Choose your city from the list:</label>
+  <input list="cities" name="city" id="city">
+  <datalist id="cities">
+  <option value="Toronto">
+  <option value="Quebec City">
+  <option value="Vancouver">
+  <option value="Montreal">
+  <option value="Ottawa">
+  <option value="Calgary">
+  <option value="Edmonton">
+  <option value="Winnipeg">
+  <option value="Victoria">
+  <option value="Other">
+  </datalist><br><br>
+
+
+
+<Label>ZIP Code</Label>
+<input type="text" pattern="[A-Za-z][0-9][A-Za-z] [0-9][A-Za-z][0-9]" title="Postal zip code" /><br><br><br>
+
+<p>Please select your subject:</p>
+  <input type="radio" id="question" name="question" value="question">
+  <label for="question">Question</label><br>
+  <input type="radio" id="comment" name="comment" value="comment">
+  <label for="comment">Comment</label><br>  
+  <input type="radio" id="orderproblem" name="orderproblem" value="orderproblem">
+  <label for="orderproblem">Order Problem</label><br><br>
+ 
+
+ <textarea id="textbox" name="textbox" rows="4" cols="50">
+Write your message here...
+  </textarea>
+  <br><br>
+ <input type="hidden" id="thename" name="thename" value="Avneet">
+
+  <input type="submit" value="Submit">
+</form> 
+
+
+
+
+
+
+
+</body>
+</html>

@@ -1,0 +1,127 @@
+.scrollmenu {
+  background-color: grey;
+  overflow: auto;
+  white-space: normal;
+}
+
+.scrollmenu a {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 15px;
+  text-decoration: none;
+}
+
+.scrollmenu a:hover {
+  background-color: #FFECFA  ;
+  color: black;
+  transition-duration: .5s;
+}
+
+.row {
+	margin-right: -10px;
+
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+ 
+}
+
+.column {
+  margin-top: 80px;
+  float: left;
+  width: 31%;
+  padding: 0 10px;
+
+}
+
+.card {
+  box-shadow: 5px 5px 12px 0px grey;
+  padding: 10px;
+  text-align: center;
+  background-color: white;
+  transition: linear 100ms all;
+  
+}
+
+.card:hover{
+	box-shadow: 0px 0px 5px 3px grey;
+}
+
+h3{
+	font-family: 'Catamaran';
+}
+
+.filtersmenu {
+  background-color: #FFECFA ;
+  overflow: auto;
+  white-space: normal;
+  margin-right: 0;
+}
+
+.button{
+	background-color: #FFECFA x ;
+	border: none;
+	font-size: 13px;
+	color: black;
+	padding: 8px;
+	display: inline-block;
+	float: right;
+}
+
+.button:hover{
+  background-color: black;
+  color: white;
+}
+
+.indicatorButton{
+	background-color: #ECCFC7 ;
+	border: none;
+	font-size: 12px;
+	color: #ECCFC7 ;
+	padding: 10px 15px;
+	display: inline-block;
+	float: left;
+	border-radius: 10px;
+	margin-left: 5px;
+	margin-bottom: 3px;
+	margin-top: 3px;
+}
+
+
+header{ 
+
+	position: fixed;
+		left: 0;
+ 		top: 0;
+  		width: 100%;
+  		background: #504947;
+  		color: #ECCFC7;
+		text-align: center;
+  		font-size: 100%;
+  		font-family: 'Catamaran';
+
+
+}	
+
+footer{
+	position: fixed;
+		left: 0;
+ 		bottom: 0;
+  		width: 100%;
+  		background: #504947;
+  		color: #ECCFC7;
+  		text-align: center;
+  		height: 60px;
+  		
+
+}
+
+
+.hidden {
+  display: none !important;
+}
+
